@@ -4,18 +4,19 @@ Developed for the purpose of reviewing React ([see Udemy course](https://www.ude
 
 ## Requirements
 
-- Simple app where users can order one or more pizzas from a menu.
-- Requires no user accounts and no login: users just input their names before using the app.
+- Simple app where users can order one or more pizzas from a menu. ✅
+- Requires no user accounts and no login: users just input their names before using the app. ✅
 - The pizza menu can change, so it whould be fetched from an API. ✅
-- Users can add multiple pizzas to a cart before ordering.
-- Ordering requires just the user's name, phone number, and address.
-- If possible, GPS locations should be also provided, to make delivery easier.
-- Users can mark their order as "priority" for an additional 20% of the cart price.
-- Orders are made by sending a POST request with the order data (user data + selected pizzas) to the API.
-- Payments are made on delivery, so no payment processing is necessary in the app.
+- Users can add multiple pizzas to a cart before ordering. ✅
+- Ordering requires just the user's name, phone number, and address. ✅
+- Users can mark their order as "priority" for an additional 20% of the cart price. ✅
+- Orders are made by sending a POST request with the order data (user data + selected pizzas) to the API. ✅
+- Payments are made on delivery, so no payment processing is necessary in the app. ✅
 - Each order will get a unique ID that should be displayed, so the user can later look up their order based on the ID. ✅
+- If possible, GPS locations should be also provided, to make delivery easier.
 - Users should be able to mark their order as "priority" even after it has been placed.
-- The backend for this app is already built: https://react-fast-pizza-api.onrender.com/api/
+
+> The backend for this app was already built: https://react-fast-pizza-api.onrender.com/api/
 
 ## Feature Categories + Pages
 
